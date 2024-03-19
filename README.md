@@ -1,6 +1,10 @@
 # fpms
 The project manages diverse financial portfolios for clients, constructed entirely using Structured Query Language (SQL)
-/
+
+```SQL
+CREATE DATABASE financial_portfolio;
+USE financial_portfolio;
+
 The database [financial_portfolio] comprises four tables:
 
 1. Clients - containing basic client information such as names and contact details.
