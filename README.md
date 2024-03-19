@@ -60,3 +60,14 @@ CREATE TABLE returns (
     FOREIGN KEY (investment_id) REFERENCES investments (investment_id)
 );
 ```
+### Project Features:
+
+1. Tracking Investments: Users can add, modify, and delete investments, covering stocks, bonds, and mutual funds, along with essential details like ticker symbols, quantities, purchase prices, and purchase dates.
+
+2. Integration of Market Data: The system seamlessly integrates with external financial data sources, like APIs, to fetch recent market data, such as stock prices and bond yields, enabling calculation of current investment values.
+
+3. Generating Performance Reports: Users can generate detailed performance reports for their portfolios, including metrics like total portfolio value, return on investment (ROI), and asset allocation.
+
+4. Analyzing Investments: Users can analyze their portfolios by performing calculations such as evaluating overall performance, comparing investment performance, and identifying top-performing assets.
+
+5. Managing Users: The system incorporates a robust user management system, allowing secure registration, login, and autonomous management of portfolio data by users.
